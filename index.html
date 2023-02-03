@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <div class="input--box">
+        <h2 class="input--title">Metric/Imperial Unit Converter</h2>
+        <input id="inputBox" type="number" value="0" onfocus="this.value=''" />
+        <button id="convertBtn">Convert</button>
+      </div>
+
+      <div class="output--box">
+        <div class="output--card">
+          <h3>Length (Meter/Feet)</h3>
+          <p id="outputLength">0 meters = 0 feet | 0 feet = 0 meters</p>
+        </div>
+        <div class="output--card">
+          <h3>Volume (Liters/Gallons)</h3>
+          <p id="outputVolume">0 meters = 0 feet | 0 feet = 0 meters</p>
+        </div>
+        <div class="output--card">
+          <h3>Mass (Kilograms/Pounds)</h3>
+          <p id="outputMass">0 meters = 0 feet | 0 feet = 0 meters</p>
+        </div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
